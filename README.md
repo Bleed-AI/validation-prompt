@@ -1,7 +1,7 @@
 # Validation Prompt
 
 ## Project Overview
-The Logic Operator Calculator is a web application that allows users to build complex logic expressions using logical operators such as AND and OR. These expressions are constructed in the frontend, converted to structured JSON, and then sent to the backend for evaluation. The primary goal of this project is to calculate a total score based on the input logic expressions.
+Looking to build complex logic expressions using logical operators such as AND and OR. These expressions are constructed in the frontend, converted to structured JSON, and then sent to the backend for evaluation. The primary goal of this project is to calculate a total score based on the input logic expressions.
 
 ## Features
 **User-Friendly Interface:** An intuitive and user-friendly web interface that enables users to construct complex logic expressions visually.
