@@ -1,0 +1,11 @@
+"Condition 1:  hire_rate > 90%"
+"Condition 2: total_spent >= 3000"
+"Condition 3:  Is this job about Building a tech Product? = True"
+"Condition 4:  Is the client asking for a full time hire for an AI role in this job? = True"
+"Clause 1  = ((Condition 1 AND Condition 2) OR Condition 3) AND Condition 4"
+
+"Condition 4:  expertise_level = Intermediate"
+"Condition 5: payment_method_verified = False"
+"Condition 6:  Is this job about Building a tech Product? = True"
+"Condition 7:  hourly_range > 10 and < 60"
+"Clause 2  = ((Condition 4 OR Condition 5) AND Condition 6) OR Condition 7",

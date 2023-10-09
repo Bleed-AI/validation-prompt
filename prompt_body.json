@@ -1,0 +1,60 @@
+{
+  "prompt_name": "Testing Prompt 2",
+  "clauses": [
+    {
+      "id": "1",
+      "clause_type": "llm",
+      "award_type": "negative",
+      "is_bonus": true,
+      "flag_name": "green",
+      "operator": "",
+      "weight": 42,
+      "checks": [
+        {
+          "option_name": "Advanced Testing Question"
+        },
+        {
+          "option_name": "Advanced Testing Question"
+        },
+        {
+          "option_name": "Advanced Testing Question"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "clause_type": "logic",
+      "award_type": "positive",
+      "is_bonus": false,
+      "weight": 25,
+      "flag_name": "red",
+      "operator": "",
+      "checks": [
+        {
+          "option_name": "experience",
+          "option_type": "range",
+          "option_value": {
+            "min": "2",
+            "max": "5"
+          }
+        },
+        {
+          "option_name": "experience",
+          "option_type": "range",
+          "option_value": {
+            "min": "2",
+            "max": "5"
+          }
+        },
+        {
+          "option_name": "experience",
+          "option_type": "range",
+          "option_value": {
+            "min": "2",
+            "max": "5"
+          }
+        }
+      ]
+    }
+  ]
+}
